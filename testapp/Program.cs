@@ -10,8 +10,8 @@ namespace testapp
     {
         static void Main(string[] args)
         {
-
-
+            Console.WriteLine("HELLO");
+            Console.ReadKey();
         }
     }
 }
