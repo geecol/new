@@ -10,7 +10,10 @@ namespace testapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HELLO!!!");
+            Console.Write("Enter name: ");
+            var inp = Console.ReadLine();
+            Console.Write("Hello, " + inp + "!");
+            
             Console.ReadKey();
         }
     }
