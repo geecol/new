@@ -13,6 +13,11 @@ namespace testapp
             Console.Write("Enter name: ");
             var inp = Console.ReadLine();
             Console.Write("Hello, " + inp + "!");
+
+            Console.Write("How old are you, " + inp + "?");
+            inp = Console.ReadLine();
+
+            Console.WriteLine("So you are " + inp + " years old, huh? Cool!");
             
             Console.ReadKey();
         }
